@@ -49,5 +49,11 @@
       <div class="post"></div>
     </div>
   </div>
+  <script>
+  const form = document.getElementById("login-form");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); // stop actual form submission
+    window.location.href = "./home.html";
+  });
 </body>
 </html>
